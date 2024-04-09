@@ -18,4 +18,5 @@ func InitRoutes(r *fiber.App) {
 	api.Post("/employees", jwt, handler.CreateEmployee)
 	api.Patch("/employees/:id", jwt, handler.UpdateEmployee)
 	api.Delete("/employees/:id", jwt, handler.DeleteEmployee)
+
 }
