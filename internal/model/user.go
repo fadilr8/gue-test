@@ -13,7 +13,7 @@ type User struct {
 }
 
 type CleanedUser struct {
-	ID       uint   `gorm:"primary_key"`
-	Name     string `json:"name"`
-	Email    string `json:"email"`
+	ID    uint   `json:"id"`
+	Name  string `json:"name"`
+	Email string `json:"email"`
 }
